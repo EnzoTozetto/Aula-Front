@@ -7,7 +7,7 @@ body {
     color: black;
 }
 
-/* Header/menu */
+
 .header {
     background-color: orange;
     color:black;
@@ -23,14 +23,13 @@ body {
     font-size: 1.5rem;
 }
 
-/* Fixar no topo */
+
 .fixed {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-/* Navegação */
 .nav .menu {
     list-style: none;
     display: flex;
@@ -39,7 +38,7 @@ body {
     padding: 0;
 }
 
-/* Links do menu */
+
 .menu li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -49,13 +48,13 @@ body {
     border-radius: 5px;
 }
 
-/* Hover nos links */
+
 .menu li a:hover {
     background-color: rgba(255, 255, 255, 0.3);
     color: #222;
 }
 
-/* Seções */
+
 .content {
    line-height: 1.6;
     padding: 4rem 2rem;
@@ -63,13 +62,13 @@ body {
     margin: 0 auto;
 }
 
-/* Títulos das seções */
+
 .content h2 {
     color: #333;
     margin-bottom: 1rem;
 }
 
-/* Texto */
+
 .content p {
     font-size: 1rem;
     line-height:1.6;
